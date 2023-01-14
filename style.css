@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: rgb(8, 2, 31);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    /* background-image: linear-gradient(#030238,rgb(92, 125, 233)); */
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+.title{
+    font-size: 56px;
+    color: #ffffffdc;
+    /* background-image: linear-gradient(180deg,#001aff, rgb(228, 11, 163));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    cursor: pointer;
+    transition: text-shadow .5s ease-in-out;
+    color: #fff;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 15px #fff,
+      0 0 25px #0fa,
+      0 0 50px #0fa,
+      0 0 60px #0fa,
+      0 0 75px #0fa,
+      0 0 10px #0fa;
+      margin-bottom: 50px;
+    
+}
+.content {
+    position: relative;
+    min-width: 80%;
+    max-width: 80%;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    max-height: 80vh;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+form{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.input{
+    width: 530px;
+    height: 50px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.827);
+    border-bottom: 1px solid;
+    
+}
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.356);
+}
+.input:focus{
+    outline: none;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(180deg,#001aff, rgb(228, 11, 163));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.2s;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.wrapper{
+    width: 600px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+.btn2{
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 600;
+    border: none;
+}
+.btn2:hover{
+    opacity: 0.7;
+}
+.dell{
+    color: crimson;
+}
+.edit{
+    color: #001aff;
+}
+.plan{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 400px;
+}
+.plan:focus{
+    outline: none;
+    opacity: .7;
+    border-bottom: 1px solid white;
+}
+.plans:nth-child(1){
+    border: none;
+}
+
+
